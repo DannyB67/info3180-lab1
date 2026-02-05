@@ -3,6 +3,7 @@
 <head> 
 <meta charset="UTF-8"> 
 <title>My Website - About</title> 
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" /> 
 </head> 
 <body> 
 <h1>Daniel</h1> 
@@ -10,5 +11,6 @@
     learning how things work under the hood of technology. I enjoy problem-solving through coding, especially when I finally crack a bug 
     or understand a new algorithm. Studying computer science feels like more than just earning a degree, to me, it’s building the skills 
     I’ll use to create practical and innovative solutions in the future.</p> 
+<img src="{{ url_for('static', filename='Images/pexels-goumbik-669502.jpg') }}" alt="About Me Image" width="800" />
 </body> 
 </html>
